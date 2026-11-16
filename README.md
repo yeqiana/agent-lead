@@ -6,6 +6,8 @@ Agent Lead 面向 Codex Desktop 等编码代理环境，让复杂研发任务可
 
 ## 安装
 
+本仓库已包含 `.agents/skills/agent-lead/`，在 Codex Desktop 打开本仓库时可按项目级 Skill 发现；其他项目不会自动获得该 Skill。若需要在公司项目中复用，请将该目录复制或链接到目标项目。
+
 在项目根目录将本仓库的 Skill 文件夹复制或链接到：
 
 ```text
