@@ -59,3 +59,9 @@ $agent-lead 检查当前仓库的模块结构和测试风险。禁止修改文�
 ## 兼容性说明
 
 Codex Desktop、CLI、各模型网关与厂商的模型/推理强度能力会变化。Agent Lead 优先读取环境的能力与明确授权配置，不能从一个 Skill 文件自动更新或修改所有 API Provider。
+
+## 校验与开源许可
+
+使用 PowerShell 7 或 Windows PowerShell 运行 `scripts/validate-skill.ps1`，检查 Skill 元数据、安装目录与源码一致性、参考文件及许可证。GitHub Actions 执行同一静态校验；这不代表已完成真实多模型调用或子 Agent 协作测试。
+
+本项目使用 [MIT License](LICENSE)。
